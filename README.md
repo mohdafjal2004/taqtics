@@ -1,12 +1,38 @@
-# React + Vite
+# 🛒 React E-commerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📦 Product Listing Page
+- Fetches product data from [`https://fakestoreapi.com/products`](https://fakestoreapi.com/products)
+- Displays each product in a responsive card layout (image, title, price)
 
-## Expanding the ESLint configuration
+### 🔍 Filtering
+- Category filter using API data from `/products/categories`
+- Dynamically displays filtered products
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📄 Product Details
+- Clicking a product opens a modal or dedicated page
+- Shows product image and full description
+
+### 🛍️ Cart Functionality *(Optional)*
+- Add products to cart using local state
+- Simple cart view with total price
+
+### 🎨 Styling
+- Responsive design (mobile + desktop)
+- Uses plain CSS only
+
+### 🧱 Code Structure
+- Built with React + Vite
+- Clean component-based file organization
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone <your-repo-url>
+cd <your-project-folder>
