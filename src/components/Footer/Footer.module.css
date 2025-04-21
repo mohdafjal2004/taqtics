@@ -1,0 +1,108 @@
+.footer {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid lightgrey;
+  margin-top: 2rem;
+}
+
+.brand h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000000;
+  border-bottom: 2px solid #87CEEB;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+.brand p {
+  font-size: 1.2rem;
+  color: #666666;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
+.linkColumn h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000000;
+  border-bottom: 3px solid #87CEEB;
+  display: inline-block;
+  padding-bottom: 0.2rem;
+}
+
+.linkColumn a {
+  color: #333333;
+  text-decoration: none;
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.linkColumn a:hover {
+  color: #87CEEB;
+}
+
+.social {
+  margin-top: 2rem;
+}
+
+.social h3 {
+  color: #000000;
+  border-bottom: 2px solid #87CEEB;
+  display: inline-block;
+  padding-bottom: 0.2rem;
+}
+
+.social a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 1rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.social a:hover {
+  color: #87CEEB;
+}
+
+.legal {
+  font-size: 0.9rem;
+  color: #666666;
+  margin-top: 2rem;
+}
+.footerBottom{
+  text-align: center;
+}
+.footerBottom span{
+  color: red;
+}
+
+@media (max-width: 720px) {
+  .footer {
+    padding: 1.5rem;
+  }
+
+  .links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .linkColumn a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    padding: 2.5rem;
+  }
+}
